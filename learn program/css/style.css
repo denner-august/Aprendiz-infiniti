@@ -28,21 +28,48 @@ header{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 0px 30px;
     flex-wrap: wrap;
 }
 
+
+header a:hover{
+    color: yellow;
+}
+
+#logo-marca{
+    height: 100%;
+}
+
 #titulo{
-    background-image: url(../images/fashion-toronto-watch.jpg);
-    height: 90%;
+    padding: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 100%;
+    background-image: url(../images/organized-workspace\ \(1\).jpg);
     background-attachment: fixed;
+
+}
+
+#titulo h1:hover{
+    color: #202024;
 }
 
 main{
     color: white;
-    padding: 0px 10%;
+    padding: 0px 20%;
     line-height: 30px;
+}
+main p{
+    padding: 20px 0px;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+main p:hover{
+    font-size: 20px;
+    color: yellow;
 }
 
 main h1,h2,h3,h4{
@@ -50,34 +77,13 @@ main h1,h2,h3,h4{
     text-align: center;
 }
 
-main h1{
-    font-size: 25px;
-}
-
-main p{
-    padding: 20px 0px;
-    width: 100%;
-    border-bottom: 1px solid white;
-    transition: 0.2s;
-}
-
-main p:hover{
-    color: yellow;
-    font-size: 25px;
-    animation: 0.2s;
-
-}
-
 main ul{
     border-bottom: 1px solid white;
-    text-align: center;
-    padding-bottom: 15px;
 }
 
 footer{
     text-align: center;
     padding-bottom: 50px;
-    margin-top: 30px;
 }
 
 footer h5{
