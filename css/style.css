@@ -31,12 +31,100 @@ header{
     flex-wrap: wrap;
 }
 
+
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#202024;
+    color: white;
+    height: 200px;
+    width: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    opacity: 0.9;
+}
+
+
+/*timers*/
+.label {
+    align-self: center;
+    justify-self: center;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#work {
+    grid-area: 1 / 2 / 1 / 2;
+}
+#break {
+    grid-area: 1 / 4 / 1 / 4;
+}
+#cycles {
+    grid-area: 1 / 3 / 1 / 3;
+}
+
+.timer {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+#counter {
+    grid-area: 2 / 3 / 2 / 3;
+    color: red;
+}
+
+#work-timer {
+    grid-area: 2 / 2 / 2 / 2;
+}
+
+#break-timer {
+    grid-area: 2 / 4 / 2 / 4;
+}
+
+/*buttons*/
+
+.btn {
+    align-self: center;
+    justify-self: center;
+
+    width: 100px;
+    height: 30px;
+
+    font-size: 20px;
+}
+
+#start {
+    grid-area: 3 / 2 / 3 / 2;
+}
+
+#reset {
+    grid-area: 3 / 3 / 3 / 3;
+}
+
+#stop {
+    grid-area: 3 / 4 / 3 / 4;
+}
+
+
+
 #titulo{
     background-image: url(../images/fashion-toronto-watch.jpg);
     height: 90%;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    align-items: center;
 }
 
 main{

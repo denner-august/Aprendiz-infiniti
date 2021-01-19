@@ -23,7 +23,24 @@
     </header>
 
     <div id="titulo">
-       
+        <div id="container">
+            <p id="work" class="label">Inicio</p><p id="break" class="label">Pausa</p><p id="cycles" class="label">Ciclos</p>
+            <!--Work Timer-->
+            <div id="work-timer" class="timer">
+                <p  id="w_minutes">25</p><p class="semicolon">:</p><p id="w_seconds">00</p>
+            </div>
+    
+            <!--Cycle Counter-->
+            <p id="counter" class="timer">0</p>
+    
+            <!--Break Timer-->
+            <div id="break-timer" class="timer">
+                <p id="b_minutes">05</p><p class="semicolon">:</p><p id="b_seconds">00</p>
+            </div>
+            <button id="start" class="btn">Iniciar</button>
+            <button id="stop" class="btn">Pausar</button>
+            <button id="reset" class="btn">Reiniciar</button>
+        </div>
     </div>
 
     <main>
@@ -85,7 +102,7 @@
     </footer>
 
 
-    <script src="" async defer></script>
+    <script src="./javascript/javascript.js" async defer></script>
 </body>
 
 </html>
