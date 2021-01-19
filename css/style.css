@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #121214;
+}
+a{
+    color: white;
+}
+
+a:hover{
+    color: #0C88EF;
+}
+
+header{
+    background-color:#202024 ;
+    height: 72px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+    flex-wrap: wrap;
+}
+
+
+header a:hover{
+    color: yellow;
+}
+
+#logo-marca{
+    height: 100%;
+}
+
+#titulo{
+    padding: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-image: url(../images/organized-workspace\ \(1\).jpg);
+}
+
+#titulo h1:hover{
+    color: #202024;
+}
+
+main{
+    color: white;
+    padding: 0px 20%;
+    line-height: 30px;
+}
+main p{
+    padding: 20px 0px;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+main p:hover{
+    font-size: 20px;
+    color: yellow;
+}
+
+main h1,h2,h3,h4{
+    padding: 20px 0px;
+    text-align: center;
+}
+
+main ul{
+    border-bottom: 1px solid white;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer h5{
+    font-size:20px;
+    padding: 20px 0px;
+    text-align: center;
+    color:white;
+}
+
+footer li{
+   padding: 10px 0px;
+}
