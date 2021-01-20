@@ -1,0 +1,6 @@
+@media screen and (max-width: 800px){
+#nome, #email,#texto{
+    width: 90%;
+}
+
+}
