@@ -48,14 +48,16 @@ header a:hover{
     background-position: center;
     background-size: cover;
     height: 100%;
-    background-image: url(../images/organized-workspace\ \(1\).jpg);
+    background-image: url(../images/papel-de-parede.jpg);
     background-attachment: fixed;
-
+    color: black;
 }
 
-#titulo h1:hover{
-    color: #202024;
+#titulo h1{
+    font-weight: 300;
 }
+
+
 
 main{
     color: white;

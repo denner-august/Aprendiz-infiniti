@@ -4,11 +4,15 @@ var texto = document.getElementById('texto')
 
 document.getElementById('enviar').onclick = function(){
        if(nome.value == ''){
-          alert('Digite seu nome por favor')
+            
        }else if(email.value == ''){
-           alert('digite seu email por favor')
+          
        }else if(texto.value == ''){
-           alert('digite alguma mensagem')
+          
        }
-       else{}
-}
+       else{    var teste = document.getElementById('nome').value;
+                localStorage.setItem("nome", teste);
+                document.getElementById('enviar').innerText ='Obrigado'
+            }
+
+};

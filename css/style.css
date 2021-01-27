@@ -118,7 +118,7 @@ header{
 
 
 #titulo{
-    background-image: url(../images/fundo.jpg);
+    background-image: url(../images/garen.jpg);
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -173,7 +173,7 @@ form{
 }
 
 #nome, #email{
-    width: 30%;
+    width: 30vw;
 }
 
 form input{
@@ -185,8 +185,9 @@ form input{
 }
 
 #texto{
-    width: 50%;
+    width: 30vw;
     height: 150px;
+    padding:15px;
 }
 form button{
     width: 40%;

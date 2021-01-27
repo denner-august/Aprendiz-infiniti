@@ -77,9 +77,6 @@
 
         </p>
         
-        
-
-
         <h4>Alguns sites com cursos de programação</h4>
         <ul>
             <li><a href="https://app.rocketseat.com.br/dashboard" target="_blank"
@@ -92,11 +89,12 @@
 
     </main>
 
-    <form>
-        <input id="nome" type="text" placeholder="Digite seu nome">
-        <input id="email" type="email" placeholder="Digite seu e-mail">
-        <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Mensagem"></textarea>
-        <button id="enviar">enviar</button>
+    <form id="form">
+        <input autocomplete="off" aria-label="Nome" required='digite seu nome' id="nome" type="text" placeholder="Digite seu nome">
+        <input autocomplete="off"  aria-label="Email" required id="email" type="email" placeholder="Digite seu e-mail">
+        <textarea autocomplete="off" required aria-label="Escrava alguma mensagem " name="texto" id="texto" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        <button aria-label="botão de Enviar" type="submit" id="enviar">enviar</button>
+      
     </form>
     <footer>
         <h5>contato</h5>
